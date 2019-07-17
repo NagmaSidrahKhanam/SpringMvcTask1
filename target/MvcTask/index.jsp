@@ -1,6 +1,13 @@
 <html>
 <body>
-<h2>Welcome ${user} To Stackroute!</h2>
-<p> Welcome <%= request.getAttribute("result") %>To Stackroute</p>
+<p> <%= request.getAttribute("result") %>
+
+<form action = "save" method = "post">
+<label>Username: </label>
+<input type="text" name="username">
+<label>Password: </label>
+<input type="password" name="password">
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>

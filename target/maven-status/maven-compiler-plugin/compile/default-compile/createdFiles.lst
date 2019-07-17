@@ -1,4 +1,4 @@
-com/stackroute/initialize/MyAppInitializer.class
-com/stackroute/User.class
-com/stackroute/UserController.class
-com/stackroute/Config/Config.class
+com/stackroute/springmvc/User.class
+com/stackroute/springmvc/UserController.class
+com/stackroute/springmvc/Config.class
+com/stackroute/springmvc/MyAppInitializer.class
